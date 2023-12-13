@@ -1,15 +1,15 @@
-// Here are some of the main differences between high level and low level Solidity:
+Here are some of the main differences between high level and low level Solidity:
 
-// 1)  Readability - High level Solidity code is designed to be easy for humans to read and understand. Low level Solidity is more complex and focused on optimizations rather than readability.
+1)  Readability - High level Solidity code is designed to be easy for humans to read and understand. Low level Solidity is more complex and focused on optimizations rather than readability.
 
-// 2)  Abstractions - High level Solidity provides many abstractions and language features to make development easier. This includes contracts, interfaces, libraries, and complex data types. Low level Solidity has fewer layers of abstraction.
+2)  Abstractions - High level Solidity provides many abstractions and language features to make development easier. This includes contracts, interfaces, libraries, and complex data types. Low level Solidity has fewer layers of abstraction.
 
-// 3)  Gas costs - Low level Solidity allows for more fine-grained control and optimizations to reduce gas costs. High level Solidity is easier to develop with but gas costs can be higher due to abstractions.
+3)  Gas costs - Low level Solidity allows for more fine-grained control and optimizations to reduce gas costs. High level Solidity is easier to develop with but gas costs can be higher due to abstractions.
 
-// 4)  Safety vs Flexibility - High level Solidity has more guardrails, making it harder for developers to shoot themselves in the foot. Low level code is more flexible but also has a higher chance for errors.
+4)  Safety vs Flexibility - High level Solidity has more guardrails, making it harder for developers to shoot themselves in the foot. Low level code is more flexible but also has a higher chance for errors.
 
-// 5)  Tooling - High level Solidity works well with existing developer tooling. Low level code often requires more specialized knowledge to develop, debug, and operate.
+5)  Tooling - High level Solidity works well with existing developer tooling. Low level code often requires more specialized knowledge to develop, debug, and operate.
 
-// 6)  Upgradability - High level contract patterns like interfaces make contracts more easily upgradable. Low level contracts can be harder to upgrade if not designed correctly.
+6)  Upgradability - High level contract patterns like interfaces make contracts more easily upgradable. Low level contracts can be harder to upgrade if not designed correctly.
 
-// !!! In general, high level Solidity will be suitable for most applications where developer productivity is valued over marginal gas savings. Low level Solidity gives more fine-grained control for applications where gas costs need to be optimized, but this comes at the cost of reduced readability and safety. Many projects use a mix of both levels where appropriate.
+!!! In general, high level Solidity will be suitable for most applications where developer productivity is valued over marginal gas savings. Low level Solidity gives more fine-grained control for applications where gas costs need to be optimized, but this comes at the cost of reduced readability and safety. Many projects use a mix of both levels where appropriate.
